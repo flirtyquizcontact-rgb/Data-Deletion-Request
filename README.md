@@ -2,10 +2,10 @@
 
 <p class="muted">
 This page applies to all mobile applications published by the developer, including but not limited to:
-<strong>Block Buster Vortex
-Couples Dare:Relationship Quiz
-Funny Quiz: Couples & Party	
-Mahjong Brain Training
+<strong>Block Buster Vortex |
+Couples Dare:Relationship Quiz |
+Funny Quiz: Couples & Party	|
+Mahjong Brain Training |
 Ultimatum Share: File Transfer</strong>.
 </p>
 
