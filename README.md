@@ -89,7 +89,7 @@ Ultimatum Share: File Transfer</strong>.
 </p>
 
 <p class="muted">
-  Last updated: 2025-06-08
+  Last updated: 2026-06-08
 </p>
 
 </body>
