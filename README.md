@@ -14,7 +14,7 @@ This page applies to all mobile applications published by QuizFans Studio, inclu
 * Block Buster Vortex
 * Couples Dare: Relationship Quiz
 * Funny Quiz: Couples & Party
-* Mahjong Brain Training
+* Mahjong Solitaire Match
 
 ## Summary
 
@@ -80,4 +80,4 @@ For any questions regarding privacy or data deletion, contact us at:
 
 ## Last updated
 
-2026-06-09
+2026-06-11
