@@ -16,6 +16,7 @@ This page applies to all mobile applications published by QuizFans Studio, inclu
 * Flirty Vibes: Truth or Dare
 * Mahjong: Royal Tile Match
 * File Transfer: Android to iOS (DirectBeam)
+* SeeU
 
 ## SeeU (Firebase accounts and GPS data): important exception
 
