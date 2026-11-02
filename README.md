@@ -17,9 +17,13 @@ This page applies to all mobile applications published by QuizFans Studio, inclu
 * Mahjong: Royal Tile Match
 * File Transfer: Android to iOS (DirectBeam)
 
+## SeeU (Firebase accounts and GPS data): important exception
+
+SeeU differs from the offline apps listed below. It creates accounts and stores some Circle, profile and location data using Firebase. The offline-app statements in this document do **not** apply to SeeU. Read the [dedicated SeeU account and data deletion page](https://flirtyquizcontact-rgb.github.io/seeu/delete-account/) or contact **flirtyquiz.contact@gmail.com** with the subject **SeeU account deletion request**. Verified end-to-end deletion remains under development.
+
 ## Summary
 
-Our applications are designed to work primarily offline and do not require user accounts or login.
+The mainly offline apps listed below are designed to work primarily offline and do not require user accounts or login. SeeU is an exception.
 
 We do not collect, store, sell, or upload personal user files to our own servers. Most data remains locally on the user’s device.
 
@@ -81,4 +85,4 @@ For any questions regarding privacy or data deletion, contact us at:
 
 ## Last updated
 
-2026-06-11
+2026-11-02
