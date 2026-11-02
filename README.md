@@ -10,12 +10,12 @@ https://flirtyquizcontact-rgb.github.io/Data-Deletion-Request/
 
 This page applies to all mobile applications published by QuizFans Studio, including but not limited to:
 
-* Ultimatum Share: File Transfer
-* Block Buster Vortex
-* Couples Dare: Relationship Quiz
-* Funny Quiz: Couples & Party
-* Mahjong Solitaire Match
-* DirectBeam: File Transfer
+* Ultimatum: QR File Transfer
+* Block Puzzle Game: Vortex
+* Couples Dare: Couple Games
+* Flirty Vibes: Truth or Dare
+* Mahjong: Royal Tile Match
+* File Transfer: Android to iOS (DirectBeam)
 
 ## Summary
 
