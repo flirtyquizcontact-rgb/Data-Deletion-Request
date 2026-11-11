@@ -8,7 +8,7 @@
 <div class="card" style="border:2px solid #38bdb0;padding:20px;margin:18px 0;">
   <h2>SeeU: separate account and GPS deletion process</h2>
   <p><strong>SeeU is different from the offline apps listed above.</strong> SeeU creates a Google/Firebase account and may store profile, Circle, location history, shared location, messages and safety data in Firebase. The statements below about apps without accounts or cloud data do <strong>not</strong> apply to SeeU.</p>
-  <p>To request SeeU account and associated data deletion, use the dedicated <a href="https://flirtyquizcontact-rgb.github.io/seeu/delete-account/">SeeU account deletion page</a> or email <a href="mailto:flirtyquiz.contact@gmail.com?subject=SeeU%20account%20deletion%20request">flirtyquiz.contact@gmail.com</a>. The deletion workflow is still under development and is not yet verified end to end.</p>
+  <p>To request SeeU account and associated data deletion, use the dedicated <a href="https://quizfansstudio.github.io/seeu/delete-account/">SeeU account deletion page</a> or email <a href="mailto:quizfans.studio@gmail.com?subject=SeeU%20account%20deletion%20request">quizfans.studio@gmail.com</a>. The deletion workflow is still under development and is not yet verified end to end.</p>
 </div>
 <div class="card">
   <h2>Summary</h2>
@@ -47,13 +47,13 @@
 
   <p>
     📧 <strong>Email:</strong>
-    <a href="mailto:flirtyquiz.contact@gmail.com">flirtyquiz.contact@gmail.com</a>
+    <a href="mailto:quizfans.studio@gmail.com">quizfans.studio@gmail.com</a>
   </p>
 
   <p>Please include:</p>
   <ul>
     <li>The name of the application</li>
-    <li>Your device type: Android</li>
+    <li>Your device type: Android or Windows (if applicable)</li>
     <li>A short description of your deletion request</li>
   </ul>
 </div>
@@ -83,6 +83,19 @@
       <strong>Local files:</strong> Photos, videos, documents, and other files stored on your device must be deleted by you directly from your device.
     </li>
   </ul>
+</div>
+
+<h2>DirectBeam Windows Companion: remove pairing and local PC data</h2>
+<div class="card">
+<p>DirectBeam Windows Companion is an optional desktop app paired with DirectBeam on Android. It does not require a separate DirectBeam account. The files you transfer are saved on the devices you choose; we cannot remotely erase copies stored on your PC.</p>
+<ol>
+<li>Disconnect or unpair the phone in Windows Companion and revoke the corresponding PC connection on Android where the feature is available.</li>
+<li>Delete downloaded or exported files from their Windows destination (for example, <code>Downloads\DirectBeam</code>), including any other copies you made.</li>
+<li>To clear locally stored pairing metadata and pairing diagnostics, inspect and remove the appropriate files under <code>%LOCALAPPDATA%\DirectBeam\Companion\</code>, including <code>phone.json</code> and <code>pairing-diagnostic.log</code> where present.</li>
+<li>Remove DirectBeam Companion pairing credentials for the device from <strong>Windows Credential Manager</strong> if the app's unpair action has not already removed them. Do not delete unrelated Windows credentials.</li>
+<li>If you uninstall Windows Companion, check these locations separately: uninstallation does not necessarily erase downloaded files, pairing metadata, logs or stored credentials.</li>
+</ol>
+<p>For more information about local PC processing, read the <a href="https://quizfansstudio.github.io/DirectBeam/privacy.html">DirectBeam Privacy Policy</a> and <a href="https://quizfansstudio.github.io/DirectBeam/terms.html">Terms of Service</a>. For information you actually sent to our support mailbox, contact <a href="mailto:quizfans.studio@gmail.com">quizfans.studio@gmail.com</a> with a deletion request. Do not attach private pairing codes or transfer-file contents unless specifically needed.</p>
 </div>
 
 <h2>Data retained and retention period</h2>
@@ -120,9 +133,9 @@
 <h2>Contact</h2>
 <p>
   For any questions regarding privacy or data deletion, contact us at:<br/>
-  📧 <a href="mailto:flirtyquiz.contact@gmail.com">flirtyquiz.contact@gmail.com</a>
+  📧 <a href="mailto:quizfans.studio@gmail.com">quizfans.studio@gmail.com</a>
 </p>
 
 <p class="muted">
-  Last updated: 2026-11-02 (SeeU clarification)
+  Last updated: 2026-11-11 (Windows Companion deletion clarification)
 </p>
