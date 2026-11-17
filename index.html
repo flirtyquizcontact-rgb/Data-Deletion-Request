@@ -1,18 +1,74 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="index,follow"><title>Data Deletion Request | Quiz Fans Studio</title>
+<meta name="robots" content="index,follow"><meta name="theme-color" content="#050812"><meta name="description" content="Official Quiz Fans Studio data deletion and local data controls for DirectBeam and our other apps."><link rel="canonical" href="https://quizfansstudio.github.io/Data-Deletion-Request/"><link rel="icon" type="image/png" href="https://play-lh.googleusercontent.com/hIAtH3fNHMNuhRgK2IGnseQmotYTHN9giYkRwjsQZSPNioaQXbcNVVxemhGa1Eh_jA=s94"><title>Data Deletion Request | Quiz Fans Studio</title>
 <style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0a1224;color:#ebf3ff;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.7}
 header,footer{padding:22px max(24px,calc((100vw - 940px)/2));background:#10203a}header a{font-size:20px;font-weight:750;text-decoration:none}
 main{max-width:940px;margin:32px auto;padding:24px;background:#14233a;border:1px solid #33506c;border-radius:16px}
 h1,h2{line-height:1.25;color:white}.card{padding:15px 20px;border:1px solid #344c69;border-radius:12px;margin:15px 0}
-a{color:#8bcbff;overflow-wrap:anywhere}.muted{color:#b7c8de}footer{font-size:13px}@media(max-width:600px){main{margin:12px;padding:16px}}</style>
-</head><body><header><a href="https://quizfansstudio.github.io/">Quiz Fans Studio (QFS)</a></header>
-<main><h1>Data Deletion Request</h1>
+a{color:#8bcbff;overflow-wrap:anywhere}.muted{color:#b7c8de}footer{font-size:13px}@media(max-width:600px){main{margin:12px;padding:16px}}
+/* Official Quiz Fans Studio visual system for multi-app Data Controls, 2026-11-17 */
+:root{color-scheme:dark;--bg:#050812;--panel:#101827;--ink:#f5faff;--muted:#b7c8dd;--cyan:#42e8ff;--blue:#3a8dff;--violet:#9b7bff;--line:rgba(142,181,234,.25)}
+html{scroll-behavior:smooth}
+body{color:var(--ink);background:radial-gradient(ellipse at 90% -3%,rgba(76,80,206,.23),transparent 37%),radial-gradient(ellipse at 10% 20%,rgba(16,157,222,.13),transparent 39%),#050812;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:#8cefff;text-decoration:none}a:hover{text-decoration:underline}a:focus-visible{outline:3px solid var(--violet);outline-offset:4px;border-radius:8px}
+.qfs-skip{position:absolute;left:12px;top:-120px;padding:12px 16px;background:#fff;color:#081426;z-index:100}.qfs-skip:focus{top:10px}
+header{padding:0 max(20px,calc((100vw - 1040px)/2));background:rgba(5,8,18,.85);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.qfs-nav{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:84px;flex-wrap:wrap}
+.qfs-brand{display:flex;align-items:center;gap:13px;color:#f5faff!important;font-size:18px!important;font-weight:850;letter-spacing:-.02em}
+.qfs-brand img{width:47px;height:47px;object-fit:cover;border-radius:13px;box-shadow:0 0 24px rgba(66,232,255,.23)}
+.qfs-navlinks{display:flex;flex-wrap:wrap;gap:11px 17px;font-size:14px;font-weight:720}
+.qfs-navlinks a{color:#d3e3f2}.qfs-navlinks a:hover{color:#8cefff}
+main{max-width:1040px;margin:25px auto 40px;padding:0 20px;border:0;border-radius:0;background:none}
+.qfs-delete-hero{position:relative;overflow:hidden;margin:0 0 28px;padding:clamp(24px,4vw,42px);border-radius:23px;border:1px solid rgba(66,232,255,.33);background:radial-gradient(circle at 100% 0%,rgba(155,123,255,.19),transparent 49%),linear-gradient(120deg,#162b40,#10182c 70%);box-shadow:0 20px 55px rgba(0,0,0,.2)}
+.qfs-delete-hero:after{content:"";position:absolute;width:310px;height:310px;border:1px solid rgba(119,221,255,.07);right:-160px;top:-155px;border-radius:50%;pointer-events:none}
+.qfs-hero-brand{display:flex;gap:14px;align-items:center;color:#9decff;letter-spacing:.15em;font-weight:820;text-transform:uppercase;font-size:12px;margin:0 0 17px}
+.qfs-hero-brand img{width:65px;height:65px;object-fit:cover;border-radius:17px;box-shadow:0 0 25px rgba(66,232,255,.25)}
+.qfs-delete-hero h1{font-size:clamp(34px,5.5vw,61px);line-height:1.1;letter-spacing:-.047em;margin:8px 0 16px;color:#f5faff;background:linear-gradient(100deg,#fff 20%,#84efff 75%,#b8a5ff);background-clip:text;-webkit-background-clip:text;color:transparent}
+.qfs-delete-hero p{color:#bdcfe1;max-width:840px}
+.qfs-quicklinks{display:flex;gap:9px;flex-wrap:wrap;margin-top:22px}
+.qfs-quicklinks a{display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(66,232,255,.35);background:#193147;color:#dcf5ff;padding:9px 13px;border-radius:11px;font-size:13px;font-weight:760}
+.qfs-quicklinks a:hover{background:#20415b;text-decoration:none}
+main>h2{font-size:clamp(23px,3vw,30px);margin:40px 0 14px;letter-spacing:-.025em;line-height:1.25;scroll-margin-top:20px}
+main>.card{background:linear-gradient(150deg,#14263c,#0e1728);border:1px solid var(--line);border-radius:18px;padding:clamp(20px,3vw,27px);margin:15px 0 22px;box-shadow:0 16px 35px rgba(0,0,0,.12)}
+main>.card h2{font-size:clamp(22px,2.8vw,28px);margin:0 0 14px}
+main>.card p,main>.card li{color:#c8d9ed}
+main>.card strong{color:#f1fbff}
+main>.card:nth-child(2){border-color:rgba(70,223,179,.45)!important}
+.qfs-directbeam-note{display:flex;gap:15px;align-items:center;border:1px solid rgba(66,232,255,.26);border-radius:17px;padding:17px 20px;margin:18px 0 4px;background:linear-gradient(110deg,#182e47,#111d31)}
+.qfs-directbeam-note img{width:55px;height:55px;border-radius:14px;object-fit:cover;box-shadow:0 0 24px rgba(66,232,255,.2)}
+.qfs-directbeam-note strong{display:block;font-size:17px;color:#fff}
+.qfs-directbeam-note span{color:#aebed2;font-size:13px}
+code{max-width:100%;overflow-wrap:anywhere;background:#091b2b;padding:2px 5px;border:1px solid rgba(142,181,234,.17);border-radius:6px;color:#a2ecff}
+.muted{color:#b5c9df}
+main>p:not(.muted){color:#cbdaec}
+main>h2#publisher-identity{margin-top:54px;padding-top:28px;border-top:1px solid var(--line)}
+footer{padding:24px max(20px,calc((100vw - 1040px)/2));background:rgba(5,8,18,.74);border-top:1px solid var(--line);color:#a9bfd7;line-height:1.55}
+.qfs-footer-links{display:flex;gap:12px 22px;flex-wrap:wrap;align-items:center}
+@media(max-width:680px){header{padding:0 16px}.qfs-nav{padding:13px 0;gap:12px}.qfs-navlinks{gap:8px 13px}main{margin-top:14px;padding:0 12px}.qfs-delete-hero{padding:24px 18px}.qfs-hero-brand img{width:52px;height:52px}main>.card{padding:19px 16px}.qfs-directbeam-note{padding:14px}}
+@media(max-width:375px){.qfs-brand{font-size:16px!important}.qfs-brand img{width:39px;height:39px}.qfs-quicklinks a{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+</style>
+</head><body>
+<a class="qfs-skip" href="#main">Skip to content</a>
+<header><nav class="qfs-nav" aria-label="Main navigation">
+<a class="qfs-brand" href="https://quizfansstudio.github.io/"><img src="https://play-lh.googleusercontent.com/hIAtH3fNHMNuhRgK2IGnseQmotYTHN9giYkRwjsQZSPNioaQXbcNVVxemhGa1Eh_jA=s94" width="47" height="47" alt="">Quiz Fans Studio</a>
+<div class="qfs-navlinks"><a href="https://quizfansstudio.github.io/">All apps</a><a href="https://quizfansstudio.github.io/DirectBeam/">DirectBeam</a><a href="https://quizfansstudio.github.io/DirectBeam/privacy.html">Privacy</a><a href="mailto:quizfans.studio@gmail.com">Support</a></div>
+</nav></header>
+<main id="main"><section class="qfs-delete-hero">
+<div class="qfs-hero-brand"><img src="https://play-lh.googleusercontent.com/hIAtH3fNHMNuhRgK2IGnseQmotYTHN9giYkRwjsQZSPNioaQXbcNVVxemhGa1Eh_jA=s94" alt="Official Quiz Fans Studio icon" width="65" height="65"><span>Quiz Fans Studio · Privacy & data controls</span></div>
+<h1>Data Deletion &amp; Controls</h1>
 
 <p class="muted">
   The general information below applies to the mainly offline applications published by <strong>Quiz Fans Studio</strong>, including:
   <strong>Block Buster Vortex | DirectBeam: File Transfer | Couples Dare: Relationship Quiz | Funny Quiz: Couples & Party | Mahjong Solitaire Match | Ultimatum Share: File Transfer.</strong>
 </p>
+<div class="qfs-quicklinks" aria-label="Quick links">
+<a href="#directbeam-windows">DirectBeam Windows data</a>
+<a href="#publisher-identity">Contact &amp; data requests</a>
+<a href="https://quizfansstudio.github.io/DirectBeam/privacy.html">DirectBeam Privacy</a>
+</div>
+</section>
 
 <div class="card" style="border:2px solid #38bdb0;padding:20px;margin:18px 0;">
   <h2>SeeU: separate account and GPS deletion process</h2>
@@ -94,7 +150,8 @@ a{color:#8bcbff;overflow-wrap:anywhere}.muted{color:#b7c8de}footer{font-size:13p
   </ul>
 </div>
 
-<h2>DirectBeam Windows Companion: remove pairing and local PC data</h2>
+<div class="qfs-directbeam-note"><img src="https://play-lh.googleusercontent.com/yA0eCNGCP8iwyPnvoc7XECDZReeQOPjFHlIO_jgY5SolQcJEFQyx1HNsQKF4YPdQElkXKyo-wxKaUsLnOiGhuEo=w240-h480" alt="DirectBeam app icon" width="55" height="55"><div><strong>DirectBeam for Android &amp; Windows</strong><span>Local files, pairing and download controls</span></div></div>
+<h2 id="directbeam-windows">DirectBeam Windows Companion: remove pairing and local PC data</h2>
 <div class="card">
 <p>DirectBeam Windows Companion is an optional desktop app paired with DirectBeam on Android. It does not require a separate DirectBeam account. The files you transfer are saved on the devices you choose; we cannot remotely erase copies stored on your PC.</p>
 <ol>
@@ -151,4 +208,4 @@ a{color:#8bcbff;overflow-wrap:anywhere}.muted{color:#b7c8de}footer{font-size:13p
 <p class="muted">
   Last updated: 2026-11-17 (publisher and contact clarification)
 </p>
-</main><footer>Contact: <a href="mailto:quizfans.studio@gmail.com">quizfans.studio@gmail.com</a></footer></body></html>
+</main><footer><div class="qfs-footer-links"><span>© 2026 Quiz Fans Studio</span><a href="https://quizfansstudio.github.io/">All apps</a><a href="https://quizfansstudio.github.io/DirectBeam/privacy.html">DirectBeam Privacy</a><a href="https://quizfansstudio.github.io/DirectBeam/terms.html">Terms</a><a href="mailto:quizfans.studio@gmail.com">Support</a></div></footer></body></html>
